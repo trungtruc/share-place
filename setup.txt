@@ -1,0 +1,11 @@
+react project setup manual
+- npm init -y
+- npm install react react-dom
+- npm @babel/core @babel/preset-env @babel/preset-react babel-loader
+  .babelrc
+   {
+     "presets": ["@babel/preset-react", "@babel/preset-env"]
+   }
+- npm install webpack webpack-cli webpack-dev-server
+  webpack.config.js
+- style-loader css-loader html-webpack-plugin file-loader
